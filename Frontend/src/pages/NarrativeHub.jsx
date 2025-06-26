@@ -2,7 +2,7 @@ import React from 'react'
 
 const NarrativeHub = () => {
   return (
-    <div>NarrativeHub</div>
+    <div className='bg-black h-dvh text-white'>NarrativeHub</div>
   )
 }
 

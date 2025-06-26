@@ -42,9 +42,7 @@ const SignIn = () => {
 
             if (response.data.success) {
                 // Store user data in localStorage if needed
-                localStorage.setItem('user', JSON.stringify(response.data.user));
-                
-                
+                localStorage.setItem('user', JSON.stringify(response.data.data.user));
                 navigate('/hub'); 
             }
         } catch (error) {
