@@ -8,6 +8,7 @@ import { Contact } from "../pages/Contact.jsx";
 import { SignIn } from "../pages/SignIn.jsx";
 import { SignUp } from "../pages/SignUp.jsx";
 import NarrativeHub from "../pages/NarrativeHub.jsx";
+import CreateTeam from "../pages/CreateTeam.jsx";
 // import Register from "./pages/Register.jsx";
 // import NotFound from "./pages/NotFound.jsx"; // optional
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <Route path="/login" element={<SignIn />} />
       <Route path="/register" element={<SignUp />} />
       <Route path="/hub" element={<NarrativeHub/>}/>
+      <Route path="/createteam" element={<CreateTeam/>}/>
     </>
   )
 );
